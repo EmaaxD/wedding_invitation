@@ -38,9 +38,7 @@ export const Footer: React.FC<FooterProps> = ({ openModal }) => {
           <p className="text-sm text-black uppercase font-[600]">
             parroquea ntra. sra. de la mercede
           </p>
-          <p className="text-sm text-black uppercase font-[600]">
-            perico - city
-          </p>
+          <p className="text-sm text-black uppercase font-[600]">jujuy</p>
         </div>
 
         <button
@@ -53,7 +51,7 @@ export const Footer: React.FC<FooterProps> = ({ openModal }) => {
 
         <div className="flex flex-col items-center animate__animated animate__fadeInUp animate__delay-10">
           <p className="text-sm text-black uppercase font-[600]">
-            recepcion: aguante perico xd
+            recepcion: jujuy
           </p>
           <p className="text-sm text-black uppercase font-[600]">numero 310</p>
         </div>
