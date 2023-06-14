@@ -96,7 +96,7 @@ export default function Home() {
           </p>
         </div>
 
-        <button className="w-fit flex items-center gap-2 text-[#8d514b] uppercase px-3 py-2 border border-[#8d514b] shadow text-sm rounded-md animate__animated animate__fadeInUp animate__delay-9">
+        <button className="w-fit flex items-center gap-2 text-[#8d514b] uppercase px-3 py-2 border border-[#8d514b] shadow text-sm rounded-md outline-none animate__animated animate__fadeInUp animate__delay-9">
           <MapPinIcon className="text-[#8d514b] w-5 h-5" />
           como llegar
         </button>
@@ -109,7 +109,7 @@ export default function Home() {
         </div>
 
         <button
-          className="w-fit bg-[#8d514b] flex items-center gap-2 text-white uppercase px-3 py-2 shadow text-sm rounded-md animate__animated animate__fadeInUp animate__delay-11"
+          className="w-fit bg-[#8d514b] flex items-center gap-2 text-white uppercase px-3 py-2 shadow text-sm rounded-md outline-none animate__animated animate__fadeInUp animate__delay-11"
           onClick={handleClickConfirm}
         >
           {confirInvitation ? (
