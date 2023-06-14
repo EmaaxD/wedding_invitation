@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tiro+Telugu&display=swap");
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+.couplesTitle {
+  font-family: "Great Vibes", cursive;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.eventDate {
+  font-family: "Tiro Telugu", serif;
+}
